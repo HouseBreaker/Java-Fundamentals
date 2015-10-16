@@ -20,16 +20,20 @@ public class p08_GetAverage {
             abc[i] = Double.parseDouble(abcString[i]);
         }
 
+        double average = getAverage(abc);
+
+        System.out.println(MessageFormat.format(
+                "Average of {0}, {1} and {2} is {3,number,#0.00})", abc[0], abc[1], abc[2], average
+        ));
+    }
+
+    private static double getAverage(double[] abc) {
         double sum = 0;
 
         for (int i = 0; i < abc.length; i++) {
             sum+= abc[i];
         }
 
-        double average = sum/abc.length;
-
-        System.out.println(MessageFormat.format(
-                "Average of {0}, {1} and {2} is {3,number,#0.00})", abc[0], abc[1], abc[2], average
-        ));
+        return sum/abc.length;
     }
 }
