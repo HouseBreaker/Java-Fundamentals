@@ -35,7 +35,6 @@ public class p08_OddAndEvenPairs {
 				System.out.println();
 			}
 		}
-		// 2 8 11 15 3 2
 	}
 }
 
