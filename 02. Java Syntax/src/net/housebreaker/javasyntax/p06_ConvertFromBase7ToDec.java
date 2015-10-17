@@ -3,7 +3,7 @@ package net.housebreaker.javasyntax;
 import java.util.Scanner;
 
 public class p06_ConvertFromBase7ToDec {
-    public static void main(){
+    public static void main() {
         System.out.println("\nProblem 5. Convert from Base 7 to base 10");
         System.out.print("Please enter a number to convert to base 10: ");
 

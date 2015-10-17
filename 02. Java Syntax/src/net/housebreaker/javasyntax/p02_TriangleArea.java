@@ -7,7 +7,7 @@ public class p02_TriangleArea {
         System.out.println("\nProblem 2. Triangle Area");
 
         System.out.print("Please input the 3 coordinates separated by a space: ");
-        
+
         Scanner in = new Scanner(System.in);
 
         int[] A = new int[] {in.nextInt(), in.nextInt()};

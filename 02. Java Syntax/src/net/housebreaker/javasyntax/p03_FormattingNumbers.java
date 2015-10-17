@@ -3,7 +3,7 @@ package net.housebreaker.javasyntax;
 import java.util.Scanner;
 
 public class p03_FormattingNumbers {
-    public static void main(){
+    public static void main() {
         System.out.println("\nProblem 3. Formatting numbers");
         System.out.print("Please enter 3 float point numbers: ");
 
