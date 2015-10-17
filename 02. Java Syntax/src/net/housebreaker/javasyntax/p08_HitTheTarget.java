@@ -9,8 +9,20 @@ public class p08_HitTheTarget {
 
 		Scanner in = new Scanner(System.in);
 
-		int n = in.nextInt();
+		int target = in.nextInt();
 
+		for (int i = 1; i <= 20; i++) {
+			for (int j = 1; j <= 20; j++) {
+				if (i + j == target) {
+					System.out.printf("%d + %d = %d", i, j, target);
+					System.out.println();
+				}
 
+				if (i - j == target) {
+					System.out.printf("%d - %d = %d", i, j, target);
+					System.out.println();
+				}
+			}
+		}
 	}
 }
