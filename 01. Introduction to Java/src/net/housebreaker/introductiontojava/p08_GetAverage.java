@@ -22,9 +22,7 @@ public class p08_GetAverage {
 
         double average = getAverage(abc);
 
-        System.out.println(MessageFormat.format(
-                "Average of {0}, {1} and {2} is {3,number,#0.00})", abc[0], abc[1], abc[2], average
-        ));
+        System.out.printf("Average of %.2f, %.2f and %.2f is %.2f)", abc[0], abc[1], abc[2], average);
     }
 
     private static double getAverage(double[] abc) {
