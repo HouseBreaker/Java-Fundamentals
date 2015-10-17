@@ -2,7 +2,10 @@ package net.housebreaker.javasyntax;
 
 import java.util.Scanner;
 
-public class p03_PointsInsideAFigure {
+// this was in the pdf and I did it without realizing it wasn't part of the actual homework. Oops.
+
+public class p03_PointsInsideAFigure_PDFHomework {
+
     static int numberOfRectangles = 3;
     static double[][][] figures = new double[numberOfRectangles][2][2];
     // first dimension is the figure, 2nd is its top left point, 3rd is its bottom right point
