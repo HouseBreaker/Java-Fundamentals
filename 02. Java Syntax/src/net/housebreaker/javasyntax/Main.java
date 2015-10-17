@@ -10,6 +10,7 @@ public class Main {
 //        p04_CalcExpression.main();
 //        p05_ConvertFromDecToBase7.main();
 //        p06_ConvertFromBase7ToDec.main();
-        p07_RandomizeFromNToM.main();
+//        p07_RandomizeFromNToM.main();
+        p08_HitTheTarget.main();
     }
 }
