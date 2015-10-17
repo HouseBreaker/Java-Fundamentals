@@ -11,6 +11,7 @@ public class Main {
 //		p05_ConvertFromDecToBase7.main();
 //		p06_ConvertFromBase7ToDec.main();
 //		p07_RandomizeFromNToM.main();
-		p08_HitTheTarget.main();
+		p08_OddAndEvenPairs.main();
+//		p09_HitTheTarget.main();
 	}
 }
