@@ -8,6 +8,8 @@ public class Main {
 //        p03_PointsInsideAFigure_PDFHomework.main();
 //        p03_FormattingNumbers.main();
 //        p04_CalcExpression.main();
-        p05_ConvertFromDecToBase7.main();
+//        p05_ConvertFromDecToBase7.main();
+//        p06_ConvertFromBase7ToDec.main();
+        p07_RandomizeFromNToM.main();
     }
 }
