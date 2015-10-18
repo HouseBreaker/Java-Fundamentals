@@ -14,6 +14,7 @@ public class Main {
 //		p08_OddAndEvenPairs.main();
 //		p09_HitTheTarget.main();
 //		p10_ExtractWords.main();
-		p11_StartsAndEndsWithCapital.main();
+//		p11_StartsAndEndsWithCapital.main();
+		p12_CharMultiplier.main();
 	}
 }
