@@ -14,7 +14,7 @@ public class p12_CharMultiplier {
 		int sum = 0;
 		String shorterString = "", longerString = "";
 
-		if (input[0].length() < input[1].length()) {
+		if (input[0].length() <= input[1].length()) {
 			shorterString = input[0];
 			longerString = input[1];
 		} else if (input[0].length() > input[1].length()) {
