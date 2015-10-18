@@ -13,6 +13,7 @@ public class Main {
 //		p07_RandomizeFromNToM.main();
 //		p08_OddAndEvenPairs.main();
 //		p09_HitTheTarget.main();
-		p10_ExtractWords.main();
+//		p10_ExtractWords.main();
+		p11_StartsAndEndsWithCapital.main();
 	}
 }
