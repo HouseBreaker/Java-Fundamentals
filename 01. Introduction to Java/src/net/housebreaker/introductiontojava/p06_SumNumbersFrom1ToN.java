@@ -1,6 +1,4 @@
 package net.housebreaker.introductiontojava;
-
-import java.text.MessageFormat;
 import java.util.Scanner;
 
 public class p06_SumNumbersFrom1ToN {
@@ -17,6 +15,6 @@ public class p06_SumNumbersFrom1ToN {
             sum+=i;
         }
 
-        System.out.println(MessageFormat.format("The sum of the numbers from 1 to {0} is {1}", number, sum));
+        System.out.printf("The sum of the numbers from 1 to %d is %d", number, sum);
     }
 }
