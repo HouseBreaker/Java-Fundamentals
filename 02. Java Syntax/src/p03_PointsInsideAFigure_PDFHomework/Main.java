@@ -1,14 +1,16 @@
+package p03_PointsInsideAFigure_PDFHomework;
+
 import java.util.Scanner;
 
 // this was in the pdf and I did it without realizing it wasn't part of the actual homework. Oops.
 
-public class p03_PointsInsideAFigure_PDFHomework {
+public class Main {
 
 	static int numberOfRectangles = 3;
 	static double[][][] figures = new double[numberOfRectangles][2][2];
 	// first dimension is the figure, 2nd is its top left point, 3rd is its bottom right point
 
-	public static void main() {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 3. Points inside a Figure");
 
 		System.out.print("Please input 2 coordinates separated by a space: ");

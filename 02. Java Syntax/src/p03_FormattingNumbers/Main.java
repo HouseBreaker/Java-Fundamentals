@@ -1,7 +1,9 @@
+package p03_FormattingNumbers;
+
 import java.util.Scanner;
 
-public class p03_FormattingNumbers {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 3. Formatting numbers");
 		System.out.print("Please enter 3 float point numbers: ");
 

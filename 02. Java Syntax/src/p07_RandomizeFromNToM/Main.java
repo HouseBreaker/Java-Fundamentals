@@ -1,9 +1,11 @@
+package p07_RandomizeFromNToM;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class p07_RandomizeFromNToM {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 7. Randomize numbers from N to M");
 		System.out.print("Please enter N and M: ");
 

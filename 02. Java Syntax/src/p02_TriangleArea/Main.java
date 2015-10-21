@@ -1,7 +1,9 @@
+package p02_TriangleArea;
+
 import java.util.Scanner;
 
-public class p02_TriangleArea {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 2. Triangle Area");
 
 		System.out.print("Please input the 3 coordinates separated by a space: ");

@@ -1,7 +1,9 @@
+package p08_OddAndEvenPairs;
+
 import java.util.Scanner;
 
-public class p08_OddAndEvenPairs {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 8. Odd and even pairs");
 		System.out.print("Please enter string array separated by space: ");
 

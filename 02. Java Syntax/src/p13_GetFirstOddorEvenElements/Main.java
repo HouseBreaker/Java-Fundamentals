@@ -1,8 +1,10 @@
+package p13_GetFirstOddorEvenElements;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class p13_GetFirstOddorEvenElements {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 13. Get First Odd or Even Elements");
 		System.out.print("Please enter 2 lines: ");
 

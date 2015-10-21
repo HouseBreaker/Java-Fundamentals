@@ -1,7 +1,9 @@
+package p09_HitTheTarget;
+
 import java.util.Scanner;
 
-public class p09_HitTheTarget {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 9. Hit the target");
 		System.out.print("Please enter target: ");
 

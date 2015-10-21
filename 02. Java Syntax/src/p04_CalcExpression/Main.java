@@ -1,9 +1,11 @@
+package p04_CalcExpression;
+
 import java.util.Scanner;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
-public class p04_CalcExpression {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 4. Calculate Expression");
 		System.out.print("Please enter 3 float point numbers: ");
 

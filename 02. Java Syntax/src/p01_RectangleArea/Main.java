@@ -1,7 +1,9 @@
+package p01_RectangleArea;
+
 import java.util.Scanner;
 
-public class p01_RectangleArea {
-	public static void main() {
+public class Main {
+	public static void main(String[] args) {
 		System.out.println("\nProblem 1. Rectangle Area");
 
 		System.out.print("Please input 2 integers separated by a space: ");
