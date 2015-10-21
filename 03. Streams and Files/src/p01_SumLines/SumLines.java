@@ -2,8 +2,8 @@ package p01_SumLines;
 
 import java.io.*;
 
-public class Main {
-	public static void main() {
+public class SumLines {
+	public static void main(String[] args) {
 		try (
 				BufferedReader bfr =
 						new BufferedReader(new FileReader("res/p01_SumLines/input.txt"))
