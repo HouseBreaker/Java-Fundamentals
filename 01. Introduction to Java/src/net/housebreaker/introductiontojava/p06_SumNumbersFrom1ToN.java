@@ -1,4 +1,3 @@
-package net.housebreaker.introductiontojava;
 import java.util.Scanner;
 
 public class p06_SumNumbersFrom1ToN {

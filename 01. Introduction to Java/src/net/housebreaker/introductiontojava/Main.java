@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 public class Main {
     public static void main(String[] args) {
 	    p03_AssignVariables.main();

@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 import java.util.Scanner;
 
 public class p05_CharacterTriangle {

@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 public class p04_PrintCharacters {
     public static void main(){
 

@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 import java.util.Scanner;
 
 public class p07_GhettoNumeralSystem {

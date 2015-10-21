@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 public class p03_AssignVariables {
     public static void main() {
         // types: byte, short, int, long, char, boolean, float, double, and String

@@ -1,5 +1,3 @@
-package net.housebreaker.introductiontojava;
-
 import java.text.MessageFormat;
 import java.util.Scanner;
 

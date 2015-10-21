@@ -1,5 +1,3 @@
-package net.housebreaker.javasyntax;
-
 import java.util.Scanner;
 
 public class p08_OddAndEvenPairs {

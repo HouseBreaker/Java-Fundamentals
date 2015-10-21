@@ -1,5 +1,3 @@
-package net.housebreaker.javasyntax;
-
 import java.util.Scanner;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;

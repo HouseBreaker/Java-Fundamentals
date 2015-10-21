@@ -1,5 +1,3 @@
-package net.housebreaker.javasyntax;
-
 import java.util.Scanner;
 
 // this was in the pdf and I did it without realizing it wasn't part of the actual homework. Oops.
