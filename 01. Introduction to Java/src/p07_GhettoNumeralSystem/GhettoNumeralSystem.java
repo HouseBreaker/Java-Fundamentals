@@ -1,7 +1,9 @@
+package p07_GhettoNumeralSystem;
+
 import java.util.Scanner;
 
-public class p07_GhettoNumeralSystem {
-    public static void main(){
+public class GhettoNumeralSystem {
+    public static void main(String[] args){
         System.out.println("\nProblem 7: Ghetto Numeral System:"); // disgust
 
         String[] numbers = new String[] {"Gee", "Bro", "Zuz", "Ma", "Duh", "Yo", "Dis", "Hood", "Jam", "Mack"};

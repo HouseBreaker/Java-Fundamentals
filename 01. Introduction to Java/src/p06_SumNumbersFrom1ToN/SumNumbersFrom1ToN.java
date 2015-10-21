@@ -1,7 +1,9 @@
+package p06_SumNumbersFrom1ToN;
+
 import java.util.Scanner;
 
-public class p06_SumNumbersFrom1ToN {
-    public static void main(){
+public class SumNumbersFrom1ToN {
+    public static void main(String[] args){
         System.out.println("\nProblem 6: Sum Numbers from 1 to N:");
 
         System.out.print("Please enter a number: ");

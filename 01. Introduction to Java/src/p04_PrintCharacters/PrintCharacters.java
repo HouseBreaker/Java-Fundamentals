@@ -1,5 +1,7 @@
-public class p04_PrintCharacters {
-    public static void main(){
+package p04_PrintCharacters;
+
+public class PrintCharacters {
+    public static void main(String[] args){
 
         System.out.println("\nProblem 4: Print Characters:");
 
