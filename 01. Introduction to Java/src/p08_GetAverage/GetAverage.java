@@ -1,8 +1,9 @@
-import java.text.MessageFormat;
+package p08_GetAverage;
+
 import java.util.Scanner;
 
-public class p08_GetAverage {
-    public static void main(){
+public class GetAverage {
+    public static void main(String[] args){
         System.out.println("\nProblem 8: Get Average:");
 
         System.out.print("\nPlease enter 3 numbers separated by a space: ");
@@ -25,9 +26,9 @@ public class p08_GetAverage {
 
     private static double getAverage(double[] abc) {
         double sum = 0;
-
-        for (int i = 0; i < abc.length; i++) {
-            sum+= abc[i];
+    
+        for (double a : abc) {
+            sum += a;
         }
 
         return sum/abc.length;
