@@ -14,8 +14,8 @@ public class SaveArrayListOfDoubles {
 		testList.add(63.4);
 		testList.add(96.0);
 
-        saveObjectToFile(testList);
-        loadObjectFromFile();
+		saveObjectToFile(testList);
+		loadObjectFromFile();
 	}
 
 	private static void saveObjectToFile(ArrayList inputList) {
@@ -23,8 +23,7 @@ public class SaveArrayListOfDoubles {
 				new BufferedOutputStream(
 						new FileOutputStream("res/p05_SaveArrayListOfDoubles/doubles.list")))) {
 			oos.writeObject(inputList);
-		}
-		catch (IOException ioe) {
+		} catch (IOException ioe) {
 			System.out.println(ioe.toString());
 		}
 	}
@@ -34,8 +33,7 @@ public class SaveArrayListOfDoubles {
 				new BufferedInputStream(
 						new FileInputStream("res/p05_SaveArrayListOfDoubles/doubles.list")))) {
 			System.out.println(ois.readObject());
-		}
-		catch (ClassNotFoundException | IOException cnne) {
+		} catch (ClassNotFoundException | IOException cnne) {
 			System.out.println(cnne.toString());
 		}
 	}

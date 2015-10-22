@@ -28,7 +28,7 @@ public class CountCharacterTypes {
 						punctuation++;
 					} else if (vowelList.indexOf(current) != -1) {
 						vowels++;
-					} else if ((current >= 'A' && current <= 'Z') || (current >= 'a' && current <= 'z')){
+					} else if ((current >= 'A' && current <= 'Z') || (current >= 'a' && current <= 'z')) {
 						consonants++;
 					}
 				}

@@ -8,13 +8,12 @@ public class SumLines {
 				BufferedReader bfr =
 						new BufferedReader(new FileReader("res/p01_SumLines/input.txt"))
 
-		){
+		) {
 			String currentLn;
 			while ((currentLn = bfr.readLine()) != null) {
 				System.out.println(currentLn);
 			}
-		}
-		catch (IOException ioe) {
+		} catch (IOException ioe) {
 			System.out.println(ioe.toString());
 		}
 	}

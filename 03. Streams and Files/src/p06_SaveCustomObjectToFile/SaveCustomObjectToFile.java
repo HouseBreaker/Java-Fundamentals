@@ -2,7 +2,6 @@ package p06_SaveCustomObjectToFile;
 
 import java.io.*;
 
-
 public class SaveCustomObjectToFile {
 	private static Course[] courses;
 
