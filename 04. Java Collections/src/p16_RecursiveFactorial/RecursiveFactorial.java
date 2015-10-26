@@ -6,7 +6,6 @@ public class RecursiveFactorial {
 	}
 	
 	private static long Factorial(long number) {
-		
 		if (number == 0)
 		{
 			return 1;
