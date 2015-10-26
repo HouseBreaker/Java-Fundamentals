@@ -12,11 +12,7 @@ public class ExtractAllUniqueWords {
 		String input = in.nextLine();
 		ArrayList<String> words = new ArrayList<>();
 
-		Matcher matcher = Pattern.compile("\\b\\w+\\b").matcher(input);
-
-		while (matcher.find()) {
-			words.add(matcher.group());
-		}
+		FindWords(input, words);
 
 		words = words.stream()
 				.distinct()
@@ -25,5 +21,13 @@ public class ExtractAllUniqueWords {
 				.collect(Collectors.toCollection(ArrayList::new));
 
 		System.out.println(String.join(" ", words));
+	}
+
+	private static void FindWords(String input, ArrayList<String> words) {
+		Matcher matcher = Pattern.compile("\\b\\w+\\b").matcher(input);
+
+		while (matcher.find()) {
+			words.add(matcher.group());
+		}
 	}
 }

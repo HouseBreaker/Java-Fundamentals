@@ -7,6 +7,6 @@ public class CountAllWords {
 		Scanner in = new Scanner(System.in);
 		String[] words = in.nextLine().split("\\b\\w+\\b");
 
-		System.out.println(words.length-1);
+		System.out.println(words.length - 1);
 	}
 }

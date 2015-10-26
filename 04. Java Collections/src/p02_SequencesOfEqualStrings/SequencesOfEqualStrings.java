@@ -11,7 +11,7 @@ public class SequencesOfEqualStrings {
 		ArrayList<String> allMatches = new ArrayList<>();
 		Matcher regex = Pattern.compile("(((\\w+) )\\2*\\3)|(\\w+)").matcher(in.nextLine());
 
-		while (regex.find()){
+		while (regex.find()) {
 			allMatches.add(regex.group());
 		}
 

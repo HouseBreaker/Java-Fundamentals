@@ -12,6 +12,6 @@ public class CountSpecifiedWord {
 
 		String[] words = input.split("(?i)\\b" + word + "\\b");
 
-		System.out.println(words.length-1);
+		System.out.println(words.length - 1);
 	}
 }

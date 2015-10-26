@@ -11,6 +11,6 @@ public class CountSubstringOccurences {
 
 		String[] words = input.split("(?i)" + word);
 
-		System.out.println(words.length-1);
+		System.out.println(words.length - 1);
 	}
 }
