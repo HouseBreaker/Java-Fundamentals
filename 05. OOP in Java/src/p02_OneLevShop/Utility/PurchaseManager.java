@@ -14,7 +14,7 @@ public final class PurchaseManager {
 
 	public static void processPurchase(Product product, Customer customer) {
 		if (product.getQuantity() <= 0) {
-			System.err.printf("%s is out of stock!\r\n", StringUtils.capitalize(product.getName()));
+			System.err.printf("%s is out of stock, %s!\r\n", StringUtils.capitalize(product.getName()), customer.getName());
 			return;
 		}
 
@@ -48,10 +48,12 @@ public final class PurchaseManager {
 		product.setQuantity(product.getQuantity() - 1);
 		customer.setBalance(netBalance);
 
-		System.out.printf("%s bought %s for %.2f!\r\n",
+		System.out.printf("%s bought %s for %.2f BGN!\r\n",
 				customer.getName(), product.getName(), product.getPrice());
 
-		System.out.printf("There is %d %s left in the store.\r\n",
-				product.getQuantity(), product.getName());
+		String isOrAre = product.getQuantity() <= 1 ? "is" : "are";
+		String pluralOrNot = product.getQuantity() <= 1 ? "" : "s";
+		System.out.printf("There %s %d %s%s left in the store.\r\n\r\n",
+				isOrAre, product.getQuantity(), product.getName(), pluralOrNot);
 	}
 }

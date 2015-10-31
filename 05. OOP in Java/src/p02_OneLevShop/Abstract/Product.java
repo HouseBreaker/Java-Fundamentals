@@ -6,18 +6,17 @@ import p02_OneLevShop.Interfaces.Buyable;
 import java.time.format.DateTimeFormatter;
 
 public abstract class Product implements Buyable {
-	protected static final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+	public static final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 
 	protected String name;
 	protected double price;
 	protected int quantity;
-	protected AgeRestriction ageRestriction;
+	protected AgeRestriction ageRestriction = AgeRestriction.None;
 
 	protected Product(String name, double price, int quantity) {
 		this.setName(name);
 		this.setQuantity(quantity);
 		this.setPrice(price);
-		this.setAgeRestriction(ageRestriction);
 	}
 
 	protected Product(String name, double price, int quantity, AgeRestriction ageRestriction) {

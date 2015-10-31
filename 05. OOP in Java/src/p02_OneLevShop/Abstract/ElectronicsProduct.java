@@ -1,9 +1,10 @@
 package p02_OneLevShop.Abstract;
 
+import p02_OneLevShop.Interfaces.Buyable;
+
 import java.time.LocalDate;
 
 public abstract class ElectronicsProduct extends Product {
-	protected static int warrantyMonths;
 	protected LocalDate warranty;
 
 	protected ElectronicsProduct(String name, double price, int quantity, String purchaseDate) {
