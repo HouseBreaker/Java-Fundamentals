@@ -4,11 +4,9 @@ import p02_OneLevShop.Abstract.Product;
 import p02_OneLevShop.Interfaces.Expirable;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class FoodProduct extends Product implements Expirable {
-	private static final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-	private static final String NO_EXPIRATION = "31.12.999999999";
+	private static final LocalDate NO_EXPIRATION = LocalDate.MAX;
 
 	private LocalDate expirationDate;
 	private AgeRestriction ageRestriction;
@@ -22,7 +20,7 @@ public class FoodProduct extends Product implements Expirable {
 
 	public FoodProduct(String name, double price, int quantity, AgeRestriction ageRestriction) {
 		super(name, price, quantity, ageRestriction);
-		this.setExpirationDate(NO_EXPIRATION);
+		this.expirationDate = NO_EXPIRATION;
 	}
 
 	public FoodProduct(String name, double price, int quantity, String expirationDate, AgeRestriction ageRestriction) {

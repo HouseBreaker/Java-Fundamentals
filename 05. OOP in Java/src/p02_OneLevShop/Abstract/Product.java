@@ -3,7 +3,11 @@ package p02_OneLevShop.Abstract;
 import p02_OneLevShop.AgeRestriction;
 import p02_OneLevShop.Interfaces.Buyable;
 
+import java.time.format.DateTimeFormatter;
+
 public abstract class Product implements Buyable {
+	protected static final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+
 	protected String name;
 	protected double price;
 	protected int quantity;
