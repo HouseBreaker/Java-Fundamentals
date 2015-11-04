@@ -1,9 +1,15 @@
 package p01_Geometry;
 
-import p01_Geometry.Abstract.*;
-import p01_Geometry.Figures2D.*;
-import p01_Geometry.Figures3D.*;
-import p01_Geometry.Interfaces.*;
+import p01_Geometry.Abstract.PlaneShape;
+import p01_Geometry.Abstract.Shape;
+import p01_Geometry.Figures2D.Circle;
+import p01_Geometry.Figures2D.Rectangle;
+import p01_Geometry.Figures2D.Triangle;
+import p01_Geometry.Figures3D.Cuboid;
+import p01_Geometry.Figures3D.Sphere;
+import p01_Geometry.Figures3D.SquarePyramid;
+import p01_Geometry.Interfaces.PerimeterMeasurable;
+import p01_Geometry.Interfaces.VolumeMeasurable;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -27,8 +33,7 @@ public class GeometryMain {
 			System.out.println(figure);
 		}
 
-		List<Shape> largeVolumeShapes = Arrays.asList(figures)
-				.stream()
+		List<Shape> largeVolumeShapes = Arrays.asList(figures).stream()
 				.filter(s -> s instanceof VolumeMeasurable)
 				.filter(v -> ((VolumeMeasurable) v)
 						.getVolume() > 40)

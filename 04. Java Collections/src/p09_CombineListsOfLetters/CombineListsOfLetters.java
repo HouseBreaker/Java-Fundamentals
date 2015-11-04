@@ -1,7 +1,6 @@
 package p09_CombineListsOfLetters;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -13,11 +12,11 @@ public class CombineListsOfLetters {
 		String secondLine = in.nextLine();
 
 		ArrayList<Character> output = new ArrayList<>();
-		
+
 		for (char c : firstLine.toCharArray()) {
 			output.add(c);
 		}
-		
+
 		for (char c : secondLine.toCharArray()) {
 			if (firstLine.indexOf(c) == -1) {
 				output.add(c);

@@ -35,6 +35,7 @@ public class LettersChangeNumbers {
 				theNumber -= chars[1] - 'A' + 1;
 			} else if (chars[1] >= 'a' && chars[0] <= 'z') {
 				theNumber += chars[1] - 'a' + 1;
+
 			}
 
 			total += theNumber;
